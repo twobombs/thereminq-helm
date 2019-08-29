@@ -9,6 +9,7 @@ metadata:
     heritage: "{{ .Release.Service }}"
 spec:
   type: LoadBalancer
+  externalTrafficPolicy: Local
   ports:
     - name: http
       port: 6080
