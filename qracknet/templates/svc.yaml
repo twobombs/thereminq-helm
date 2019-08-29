@@ -1,9 +1,9 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: {{ template "fullname" . }}
+  name: {{ include "template.fullname" . }}
   labels:
-    app: {{ template "fullname" . }}
+    app: {{ include "template.fullname" . }}
     chart: "{{ .Chart.Name }}-{{ .Chart.Version }}"
     release: "{{ .Release.Name }}"
     heritage: "{{ .Release.Service }}"
@@ -26,5 +26,5 @@ spec:
       nodePort: {{ .Values.nodePorts.https }}
       {{- end }}
   selector:
-    app: {{ template "fullname" . }}
+    app: {{ include "template.fullname" . }}
     
