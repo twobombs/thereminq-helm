@@ -8,10 +8,10 @@ metadata:
     release: "{{ .Release.Name }}"
     heritage: "{{ .Release.Service }}"
 spec:
-  type: {{ .Values.serviceType }}
+  type: LoadBalancer
   ports:
     - name: http
-      port: 80
+      port: 6080
       targetPort: http
   selector:
     app: {{ include "template.fullname" . }}
