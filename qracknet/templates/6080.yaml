@@ -6,6 +6,6 @@ spec:
     http:
       paths:
       - backend:
-          serviceName: ingress-3f37101b93b32306ea698a6eac18a0ea
+          serviceName: {{ $fullName }}
           servicePort: 6080
         path: /
