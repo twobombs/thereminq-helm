@@ -6,6 +6,6 @@ spec:
     http:
       paths:
       - backend:
-          serviceName: {{ .Release.Name }}
+          serviceName: {{{ include "template.name" . }}
           servicePort: 6080
         path: /
