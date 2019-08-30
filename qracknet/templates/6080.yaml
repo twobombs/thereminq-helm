@@ -2,10 +2,10 @@ apiVersion: extensions/v1beta1
 kind: Ingress
 spec:
   rules:
-  - host: {{ include "template.name" . }}
+  - host: {{ .Release.Name }}
     http:
       paths:
       - backend:
-          serviceName: {{ include "template.name" . }}
+          serviceName: {{ .Release.Name }}
           servicePort: 6080
         path: /
