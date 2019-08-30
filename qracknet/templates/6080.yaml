@@ -2,7 +2,7 @@ apiVersion: extensions/v1beta1
 kind: Ingress
 spec:
   rules:
-  - host: {{ $fullName }}
+  - host: {{ include "template.name" . }}
     http:
       paths:
       - backend:
