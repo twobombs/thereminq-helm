@@ -4,7 +4,7 @@ metadata:
   name: {{ include "template.fullname" . }}
 spec:
   rules:
-  - host: ingress-qracknet.ddns.net
+  - host: ingress-{{ include "template.fullname" . }}.ddns.net
     http:
       paths:
       - path: /
