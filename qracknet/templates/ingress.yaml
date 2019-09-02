@@ -9,5 +9,5 @@ spec:
       paths:
       - path: /
         backend:
-          name: qracknet
+          serviceName: qracknet
           servicePort: 6080
