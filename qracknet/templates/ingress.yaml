@@ -9,4 +9,5 @@ spec:
       paths:
       - path: /
         backend:
+          name: {{ include "template.fullname" . }}
           servicePort: 6080
