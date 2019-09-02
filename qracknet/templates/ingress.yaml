@@ -9,5 +9,5 @@ spec:
       paths:
       - path: /
         backend:
-          serviceName: qracknet
+          serviceName: {{ include "template.fullname" . }}
           servicePort: 6080
