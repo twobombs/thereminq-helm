@@ -9,5 +9,4 @@ spec:
       paths:
       - path: /
         backend:
-          serviceName: http
           servicePort: 6080
