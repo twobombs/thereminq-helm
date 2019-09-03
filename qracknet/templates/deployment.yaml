@@ -38,7 +38,7 @@ spec:
               port: http
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
-          - name: {{ .Chart.Name }}-ES
+          - name: {{ .Chart.Name }}ES
           image: docker.elastic.co/elasticsearch/elasticsearch:latest
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           ports:
