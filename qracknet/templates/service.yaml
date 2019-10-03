@@ -8,9 +8,9 @@ spec:
   type: {{ .Values.service.type }}
   ports:
     - port: {{ .Values.service.port }}
-      targetPort: http
+      targetPort: 6080
       protocol: TCP
-      name: http
+      name: 6080
   selector:
     app.kubernetes.io/name: {{ include "template.name" . }}
     app.kubernetes.io/instance: {{ .Release.Name }}
