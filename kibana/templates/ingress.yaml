@@ -19,8 +19,7 @@ spec:
 {{ toYaml .Values.ingress.tls | indent 4 }}
 {{- end }}
   rules:
-  {{- range .Values.ingress.hosts }}
-    - host: {{ . }}
+    - host: host: ingress-{{ include "template.fullname" . }}.ddns.net
       http:
         paths:
           - path: {{ $ingressPath }}
