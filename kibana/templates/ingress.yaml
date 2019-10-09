@@ -28,4 +28,3 @@ spec:
               serviceName: {{ $fullName }}
               servicePort: {{ $servicePort }}
   {{- end }}
-{{- end }}
