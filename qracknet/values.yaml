@@ -9,11 +9,6 @@ image:
   tag: latest
   pullPolicy: Always
 
-image:
-  repository: jupyter/datascience-notebook
-  tag: latest
-  pullPolicy: Always
-
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
