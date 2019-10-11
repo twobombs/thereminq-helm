@@ -7,7 +7,12 @@ replicaCount: 1
 image:
   repository: twobombs/qracknet
   tag: latest
-  pullPolicy: IfNotPresent
+  pullPolicy: Always
+
+image:
+  repository: jupyter/datascience-notebook
+  tag: latest
+  pullPolicy: Always
 
 imagePullSecrets: []
 nameOverride: ""
@@ -18,7 +23,7 @@ service:
   port: 6080
 
 ingress:
-  enabled: false
+  enabled: true
   annotations: {}
     # kubernetes.io/ingress.class: nginx
     # kubernetes.io/tls-acme: "true"
