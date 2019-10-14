@@ -1,3 +1,5 @@
+pulledfrom git helm repo as template for multicontainer web apps
+
 # LAMP
 
 Ever wanted to deploy a [LAMP Stack](https://en.wikipedia.org/wiki/LAMP_(software_bundle)) on Kubernetes?
