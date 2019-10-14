@@ -1,4 +1,4 @@
-pulledfrom git helm repo as template for multicontainer web apps
+pulled from git helm repo as template for multicontainer web apps
 
 # LAMP
 
