@@ -297,11 +297,11 @@ ingress:
 
   ## ingress.domain domain to advertise the services - A records need to point to
   ## ingress controllers IP
-  # domain: example.com
+  domain: example.com
 
   ## ingress.subdomainWWW enables www subdomain and 301 redirect from domain
   ## > NOTE: Requires nginx ingress controller
-  # subdomainWWW: false
+  subdomainWWW: false
 
   ## ingress.ssl Enables [lego](https://github.com/jetstack/kube-lego) letsencrypt
   ## ssl support - working lego container necessary
