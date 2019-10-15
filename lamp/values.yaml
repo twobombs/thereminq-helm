@@ -297,7 +297,7 @@ ingress:
 
   ## ingress.domain domain to advertise the services - A records need to point to
   ## ingress controllers IP
-  domain: example.com
+  domain: ingress-multipass.ddns.net
 
   ## ingress.subdomainWWW enables www subdomain and 301 redirect from domain
   ## > NOTE: Requires nginx ingress controller
@@ -334,7 +334,7 @@ wordpress:
   # gdriveFolder: example.com
 
   ## wordpress.domain wordpress domain used in dev mode to be search replaced
-  domain: "example.com"
+  domain: "ingress-multipass.ddns.net"
 
   develop:
     ## wordpress.develop.enabled enables develop mode
