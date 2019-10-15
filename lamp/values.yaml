@@ -323,7 +323,7 @@ ingress:
 
 wordpress:
   ## wordpress.enabled Enables wordpress normal mode
-  enabled: true
+  # enabled: true
 
   ## wordpress.gdriveRToken gdrive rtoken for authentication used for downloading
   ## InfiniteWP backup from gdrive
