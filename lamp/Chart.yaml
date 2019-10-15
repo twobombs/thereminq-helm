@@ -1,8 +1,9 @@
-apiVersion: v1
+apiVersion: v1modded
 description: Modular and transparent LAMP stack chart supporting PHP-FPM, Release Cloning, LoadBalancer, Ingress, SSL and lots more!
-name: lamp
-version: 1.1.1
+name: LAMP
+version: 1.1.1modded
 appVersion: 7
 home: https://github.com/lead4good/helm-lamp-stack
 maintainers:
   - name: lead4good
+icon: https://s24255.pcdn.co/wp-content/uploads/2017/05/lamp_stack.jpg
