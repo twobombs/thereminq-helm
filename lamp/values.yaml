@@ -88,16 +88,16 @@ httpd:
 
 mysql:
   ## mysql.rootPassword Sets the MySQL root password, enables MySQL service if not empty
-  # rootPassword: root_password
+  rootPassword: root_password
 
   ## mysql.user MySQL user
-  # user: user
+  user: user
 
   ## mysql.password MySQL user password
-  # password: user_password
+  password: user_password
 
   ## mysql.database MySQL user database
-  # database: database
+  database: database
 
   ## mysql.repository MySQL image - choose one of the official images
   ##     [mysql](https://hub.docker.com/_/mysql/)
@@ -128,19 +128,19 @@ sftp:
   tag: "alpine"
 
   ## sftp.enabled Enables sftp service
-  enabled: false
+  enabled: true
 
   ## sftp.port Port to advertise service in LoadBalancer mode
   port: 22
 
   ## sftp.nodePort  Port to advertise service in Ingress mode
-  # nodePort: 30111
+  nodePort: 30111
 
   ## sftp.user SFTP User
-  # user: user
+  user: user
 
   ## sftp.password SFTP Password
-  # password: password
+  password: password
 
   ## sftp.resources resource requests/limits
   resources: false
@@ -334,7 +334,7 @@ wordpress:
   # gdriveFolder: example.com
 
   ## wordpress.domain wordpress domain used in dev mode to be search replaced
-  # domain: "example.com"
+  domain: "example.com"
 
   develop:
     ## wordpress.develop.enabled enables develop mode
