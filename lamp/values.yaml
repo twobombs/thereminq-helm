@@ -293,7 +293,7 @@ service:
 
 ingress:
   ## ingress.enabled Enables ingress support - working ingress controller necessary
-  enabled: false
+  enabled: true
 
   ## ingress.domain domain to advertise the services - A records need to point to
   ## ingress controllers IP
@@ -323,7 +323,7 @@ ingress:
 
 wordpress:
   ## wordpress.enabled Enables wordpress normal mode
-  enabled: false
+  enabled: true
 
   ## wordpress.gdriveRToken gdrive rtoken for authentication used for downloading
   ## InfiniteWP backup from gdrive
