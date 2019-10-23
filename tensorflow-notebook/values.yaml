@@ -4,7 +4,7 @@
 jupyter:
   image:
     repository: tensorflow/tensorflow
-    tag: latest
+    tag: 1.15.0
     pullPolicy: IfNotPresent
   password: tensorflow
   resources: {}
@@ -19,7 +19,7 @@ jupyter:
 tensorboard:
   image:
     repository: tensorflow/tensorflow
-    tag: latest
+    tag: 1.15.0
     pullPolicy: IfNotPresent
 service:
   type: LoadBalancer
