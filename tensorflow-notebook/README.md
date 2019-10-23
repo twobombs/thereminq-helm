@@ -1,3 +1,5 @@
+forked from githelm repo for integration into Qracknet
+
 # TensorFlow Notebook Helm Chart
 
 TensorFlow is an open source software library for numerical computation using data flow graphs, and tensorboard is the tool visualizing TensorFlow programs. Using Jupyter notebook to get into TensorFlow and develop models is the great way for data scientist. With these three tools you are able to start your machine learning work in two minutes.
