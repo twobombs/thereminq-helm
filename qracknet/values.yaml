@@ -9,16 +9,6 @@ worker:
   tag: latest
   pullPolicy: Always
 
-  service:
-    type: ClusterIP
-    port: 6080
-
-  imagePullSecrets: []
-  nameOverride: ""
-  fullnameOverride: ""
-
-  resources: 
-
 image:
   repository: twobombs/cudacluster
   tag: latest
@@ -38,9 +28,6 @@ image:
         paths: []
 
     tls: []
-  #  - secretName: chart-example-tls
-  #    hosts:
-  #      - chart-example.local
 
     resources: 
 
