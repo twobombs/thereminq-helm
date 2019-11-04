@@ -4,18 +4,23 @@
 
 replicaCount: 1
 
-image:
+worker:
   repository: twobombs/qracknet
   tag: latest
   pullPolicy: Always
 
-imagePullSecrets: []
-nameOverride: ""
-fullnameOverride: ""
+image:
+  repository: twobombs/cudacluster
+  tag: latest
+  pullPolicy: Always
 
 service:
   type: ClusterIP
   port: 6080
+
+imagePullSecrets: []
+nameOverride: ""
+fullnameOverride: ""
 
 ingress:
   enabled: true
