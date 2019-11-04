@@ -28,10 +28,6 @@ image:
     type: ClusterIP
     port: 6080
 
-  imagePullSecrets: []
-    nameOverride: ""
-    fullnameOverride: ""
-
   ingress:
     enabled: true
     annotations: {}
