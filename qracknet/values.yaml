@@ -17,7 +17,7 @@ worker:
   nameOverride: ""
   fullnameOverride: ""
 
-  resources: false
+  resources: 
 
 image:
   repository: twobombs/cudacluster
@@ -46,5 +46,5 @@ image:
   #    hosts:
   #      - chart-example.local
 
-    resources: false
+    resources: 
 
