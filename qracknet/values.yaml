@@ -2,11 +2,6 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
-worker:
-  repository: twobombs/qracknet
-  tag: latest
-  pullPolicy: Always
-
 image:
   repository: twobombs/cudacluster
   tag: latest
