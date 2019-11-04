@@ -42,3 +42,12 @@ spec:
       tolerations:
         {{- toYaml . | nindent 8 }}
     {{- end }}
+    
+    
+    {{ toYaml .Values.resources | indent 12 }}
+        {{- end }}
+      {{ end }}
+      {{ if .Values.git.enabled }}
+      - name: worker
+        image: twobombs/qracknet
+   
