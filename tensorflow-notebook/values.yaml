@@ -4,7 +4,7 @@
 jupyter:
   image:
     repository: tensorflow/tensorflow
-    tag: 1.15.0-py3-jupyter
+    tag: nightly-jupyter
     pullPolicy: IfNotPresent
   password: tensorflow
   resources: {}
@@ -19,7 +19,7 @@ jupyter:
 tensorboard:
   image:
     repository: tensorflow/tensorflow
-    tag: 1.15.0
+    tag: nightly-jupyter
     pullPolicy: IfNotPresent
 service:
   type: LoadBalancer
