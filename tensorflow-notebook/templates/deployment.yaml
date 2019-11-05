@@ -48,9 +48,10 @@ spec:
             - containerPort: 6006
               name: tensorboard
           command:
-            - tensorboard
+            - ./root/.local/bin/tensorboard
           args:
             - --logdir
+            - --db sqlite:~/.tensorboard.db
             - /output/training_logs
             - --host
             - 127.0.0.1
