@@ -5,7 +5,7 @@ jupyter:
   image:
     repository: tensorflow/tensorflow
     tag: nightly-jupyter
-    pullPolicy: IfNotPresent
+    pullPolicy: Always
   password: tensorflow
   resources: {}
   # limits:
@@ -20,6 +20,6 @@ tensorboard:
   image:
     repository: tensorflow/tensorflow
     tag: nightly-jupyter
-    pullPolicy: IfNotPresent
+    pullPolicy: Always
 service:
   type: LoadBalancer
