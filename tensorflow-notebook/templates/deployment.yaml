@@ -38,10 +38,6 @@ spec:
                 secretKeyRef:
                   name: {{ template "tensorflow-notebook.fullname" . }}
                   key: password
-         readinessProbe:
-            httpGet:
-              path: /
-              port: 8888
           volumeMounts:
             - mountPath: /output/training_logs
               name: training-logs-volume
