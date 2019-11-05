@@ -29,7 +29,9 @@ spec:
             - jupyter
           args:
             - notebook
-            - --allow-root      
+            - --allow-root
+            - --ip=127.0.0.1 
+            - --no-browser
           env:
             - name: PASSWORD
               valueFrom:
