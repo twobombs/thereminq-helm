@@ -61,7 +61,7 @@ spec:
             - --logdir
             - /output/training_logs
             - --host
-            - 0.0.0.0
+            - 127.0.0.1
           livenessProbe:
             httpGet:
               path: /
