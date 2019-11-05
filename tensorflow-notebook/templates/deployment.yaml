@@ -52,7 +52,6 @@ spec:
           args:
             - --logdir
             - --db sqlite:~/.tensorboard.db
-            - /output/training_logs
             - --host
             - 127.0.0.1
           livenessProbe:
