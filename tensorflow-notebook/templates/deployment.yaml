@@ -54,14 +54,6 @@ spec:
             - --db sqlite:~/.tensorboard.db
             - --host
             - 127.0.0.1
-          livenessProbe:
-            httpGet:
-              path: /
-              port: 6006
-          readinessProbe:
-            httpGet:
-              path: /
-              port: 6006
           volumeMounts:
             - mountPath: /output/training_logs
               name: training-logs-volume
