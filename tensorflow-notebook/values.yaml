@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 jupyter:
   image:
-    repository: tensorflow/tensorflow
-    tag: nightly-jupyter
+    repository: twobombs/tensors
+    tag: latest
     pullPolicy: Always
   password: tensorflow
   resources: {}
@@ -18,8 +18,8 @@ jupyter:
   #  nvidia.com/gpu: 1
 tensorboard:
   image:
-    repository: tensorflow/tensorflow
-    tag: nightly-jupyter
+    repository: twobombs/tensors
+    tag: latest
     pullPolicy: Always
 service:
   type: LoadBalancer
