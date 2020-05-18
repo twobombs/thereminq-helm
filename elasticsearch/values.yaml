@@ -32,7 +32,7 @@ esMajorVersion: ""
 # syntax here
 extraEnvs: []
   name: xpack.ml.enable
-  value: false
+    value: false
 
 # A list of secrets and their paths to mount inside the pod
 # This is useful for mounting certificates for security and for mounting
