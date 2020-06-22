@@ -4,7 +4,7 @@
 
 image:
   repository: twobombs/qracknet
-  tag: 1604
+  tag: 2020
   pullPolicy: Always
 
   service:
