@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 
 image:
-  repository: twobombs/qracknet:1604
-  tag: latest
+  repository: twobombs/qracknet
+  tag: 1604
   pullPolicy: Always
 
   service:
