@@ -152,6 +152,7 @@ transportPort: 9300
 
 service:
   type: ClusterIP
+  port: 9200
   nodePort:
   annotations: {}
   httpPortName: http
