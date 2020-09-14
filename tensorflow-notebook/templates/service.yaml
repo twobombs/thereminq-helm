@@ -14,6 +14,10 @@ spec:
       targetPort: tensorboard
       protocol: TCP
       name: tensorboard
+    - port: 6080
+      targetport: zerovnc
+      protocol: TCP
+      name: zerovnc
     - port: 8888
       targetPort: jupyter
       protocol: TCP
