@@ -48,9 +48,9 @@ healthCheckPath: "/app/kibana"
 # Allows you to add any config files in /usr/share/kibana/config/
 # such as kibana.yml
 kibanaConfig: {}
-#   kibana.yml: |
-#     key:
-#       nestedkey: value
+   kibana.yml: |
+     key:
+       xpack.encryptedSavedObjects.encryptionKey: 1234567890123456789012345678901234567890
 
 # If Pod Security Policy in use it may be required to specify security context as well as service account
 
