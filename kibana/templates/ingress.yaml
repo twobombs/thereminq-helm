@@ -19,7 +19,7 @@ spec:
 {{ toYaml .Values.ingress.tls | indent 4 }}
 {{- end }}
   rules:
-    - host: {{ $fullName }}.ddns.net
+    - host: {{ $fullName }}.local
       http:
         paths:
           - path: {{ $ingressPath }}
