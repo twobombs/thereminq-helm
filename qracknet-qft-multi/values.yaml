@@ -4,7 +4,7 @@
 
 image:
   repository: twobombs/qracknet
-  tag: qft-gpu3
+  tag: qft-multi
   pullPolicy: Always
 
   service:

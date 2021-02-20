@@ -4,7 +4,7 @@
 
 image:
   repository: twobombs/qracknet
-  tag: supreme-gpu3
+  tag: cosmos-nbody-multi
   pullPolicy: Always
 
   service:
