@@ -27,7 +27,7 @@ spec:
 {{- end }}
   rules:
   {{- range .Values.ingress.hosts }}
-    - host: {{ $fullName }}.ddns.net
+    - host: {{ $fullName }}.local
       http:
         paths:
           - path: {{ $ingressPath }}
