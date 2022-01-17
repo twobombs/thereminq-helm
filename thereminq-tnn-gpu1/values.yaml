@@ -4,7 +4,7 @@
 
 image:
   repository: twobombs/thereminq
-  tag: qft-multi
+  tag: tnn-gpu1
   pullPolicy: Always
 
   service:
