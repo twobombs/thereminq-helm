@@ -1,4 +1,4 @@
-apiVersion: extensions/v1beta1
+apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: {{ include "template.fullname" . }}
@@ -8,6 +8,9 @@ spec:
     http:
       paths:
       - path: /
+        pathType: Prefix
         backend:
-          serviceName: {{ include "template.fullname" . }}
-          servicePort: 6080
+          service:
+            name: {{ include "template.fullname" . }}
+            port:
+              number: 6080
