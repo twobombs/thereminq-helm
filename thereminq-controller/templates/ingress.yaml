@@ -9,5 +9,7 @@ spec:
       paths:
       - path: /
         backend:
-          serviceName: {{ include "template.fullname" . }}
-          servicePort: 6080
+          service:
+            name: {{ include "template.fullname" . }}
+            port:
+              number: 6080
