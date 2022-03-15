@@ -6,5 +6,3 @@ These vQbit Tooling HELM Charts are made for deployment in Rancher 2.x for use i
 ![Screenshot from 2022-03-15 19-29-15](https://user-images.githubusercontent.com/12692227/158456436-eab0cbb0-7602-4df2-a5be-55dbc23b69fd.png)
 
 ![Screenshot from 2022-03-15 19-26-58](https://user-images.githubusercontent.com/12692227/158456250-b253d85d-9b2c-4767-a213-4a311dbc35f4.png)
-
-<img width="600" alt="ThereminQ" src="https://user-images.githubusercontent.com/12692227/157745769-d7bd9560-3f86-4a01-bdb6-d0b954d7d32b.png">
