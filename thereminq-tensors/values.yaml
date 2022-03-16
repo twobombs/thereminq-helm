@@ -3,7 +3,7 @@
 # Declare variables to be passed into your templates.
 jupyter:
   image:
-    repository: twobombs/tensors
+    repository: twobombs/thereminq-tensors
     tag: latest
     pullPolicy: Always
   password: tensorflow
@@ -18,7 +18,7 @@ jupyter:
   #  nvidia.com/gpu: 1
 tensorboard:
   image:
-    repository: twobombs/tensors
+    repository: twobombs/thereminq-tensors
     tag: latest
     pullPolicy: Always
 service:
