@@ -8,5 +8,5 @@ spec:
   version: 8.2.2
   count: 1
   elasticsearchRef:
-    name: quickstart
+    name: es8
 EOF
