@@ -2,7 +2,7 @@ cat <<EOF | kubectl apply -f -
 apiVersion: beat.k8s.elastic.co/v1beta1
 kind: Beat
 metadata:
-  name: quickstart
+  name: es8
 spec:
   type: filebeat
   version: 8.2.3
