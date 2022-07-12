@@ -1,6 +1,0 @@
-apiVersion: v1
-appVersion: "1.0"
-description: Helm Chart for thereminq
-name: thereminq-bonsai-node
-version: 0.1.0
-icon: https://user-images.githubusercontent.com/12692227/134770011-8db48546-4853-4735-a980-cfc866d1786f.png
