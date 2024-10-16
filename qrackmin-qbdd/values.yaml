@@ -4,7 +4,7 @@
 
 image:
   repository: twobombs/qrackmin
-  tag: qbdd
+  tag: qbdd-sycamore-sleep
   pullPolicy: Always
 
   service:
