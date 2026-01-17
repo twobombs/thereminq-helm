@@ -3,7 +3,7 @@
 # Declare variables to be passed into your templates.
 
 image:
-  repository: twobombs/qrackmin
+  repository: twobombs/thereminq-hpc
   tag: qbdd-sycamore-sleep
   pullPolicy: Always
 

@@ -13,7 +13,7 @@ This repository contains Helm charts and deployment scripts for the vQbit Toolin
 
 The repository includes the following Helm charts:
 
-*   **qrackmin-qbdd-k8sycamore**: Helm Chart for Qrackmin Sycamore timed subset.
+*   **thereminq-hpc qbdd-k8sycamore**: Helm Chart for Qrackmin Sycamore timed subset.
 *   **thereminq-controller**: Helm Chart for thereminq.
 *   **thereminq-games**: Helm Chart for thereminq games.
 *   **thereminq-tensors-jupyter-pocl**: Helm Chart for thereminq-tensors jupyter.
